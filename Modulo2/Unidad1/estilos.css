@@ -1,0 +1,53 @@
+#titulo1 {
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+#titulo2 {
+    color: white;
+    background: red;
+    text-align: center;
+}
+
+.titulo3 {
+    color:white;
+    font: weight 500px;
+    text-align:left;
+}
+
+h1, h2, h3 {
+    font-family: 'Uchen', serif;
+}
+
+p {
+    margin-left: 25px;
+    text-align:justify;   
+}
+
+li {
+    margin-left: 10px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+p, li, label {
+    font-family: 'Noto Serif', serif;
+}
+
+i {
+    color:rgb(197, 185, 20);
+}
+
+.caja {
+    color: white;
+    background-color:darkred;
+    width:auto;
+    height: auto;
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px;
+}
