@@ -21,9 +21,11 @@
 }
 
 .rojo, .azul, .verde{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: white;
 	width: 150px;
+	height: 150px;
 	font-size: 20px;
-    text-align: center;
-	line-height: 150px;
 }
