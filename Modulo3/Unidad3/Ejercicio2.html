@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+</head>
+
+<body>
+    <script>
+
+        function mayor(numeros) {
+            var longitud = numeros.length;
+            var maximo = numeros[0];
+            for(var i=1;i<=longitud;i++){
+                if (numeros[i]>maximo){
+                    maximo=numeros[i];
+                }
+            }
+            return (maximo);
+        }        
+
+        var nros = [14,3,22,16,11,8,108,6,15,32,46,47];
+        document.write('El mayor es: '+parseInt(mayor(nros)));
+
+</script>
+
+</body>
+
+</html>

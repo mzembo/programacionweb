@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <style type="text/css">
+        .cuadrado {
+            width: 100px;
+            height: 100px;
+        }
+        .cuadrado.rojo {
+            background: red;
+        }
+        .cuadrado.azul {
+            background: blue;
+            margin-top: 2px;
+        }
+        .cuadrado.verde {
+            background: green;
+            margin-top: 2px;
+        }
+        .cuadrado.rojo, .cuadrado.azul, .cuadrado.verde{
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body id="demo">
+    
+	<div class="cuadrado rojo" onclick="colorear('#ff0000')"></div>
+	<div class="cuadrado azul" onclick="colorear('#0000ff')"></div>
+	<div class="cuadrado verde" onclick="colorear('#008000')"></div>
+
+    <script>
+        function colorear(color) {
+          var fondo = document.getElementById('demo');
+          fondo.style.background = color;
+        }
+    </script>
+</body>
+</html>
