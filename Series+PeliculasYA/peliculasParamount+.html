@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>series+peliculasYA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Denk+One&family=Open+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/series+peliculasYA.css">
+  <script type="text/javascript" src="js/contenido.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="holder">
+      <img src="img/logo.png" width="100" alt="series+películasYA">
+      <h1>series+películasYA</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="holder">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proveedores.html">Proveedores</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a class="activo" href="peliculas.html">Películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="holder">
+
+    <div class="filtroseriesypeliculas">
+      <h2>Películas&nbsp;&nbsp;</h2>
+      <select name="proveedores" onchange="selectProv(this.value,'P')">
+          <option value="T">Todos los Proveedores</option>
+          <option value="A">Amazon PrimeVideo</option>
+          <option value="D">Disney+</option>
+          <option value="H">HBOmax</option>
+          <option value="N">Netflix</option>
+          <option value="P" selected>Paramount+</option>
+          <option value="S">StarZ</option>
+      </select>
+    </div>
+
+    <div class="provseriepeli">
+      <ul>
+        <li class="serieopeli">
+          <h5>The Fanatic</h5>
+          <p>Un fanático al cine desarrolla una peculiar obsesión con su héroe favorito de acción, Hunter Dunbar, que le lleva a averiguar su paradero y, posteriormente, a destruir su vida profesional y personal.</p>
+          <img src="img/proveedores/Paramount+/peliculas/thefanatic.jpg" alt="The Fanatic">
+        </li>
+        <li class="serieopeli">
+          <h5>The Outpost</h5>
+          <p>Una pequeña unidad de soldados estadounidenses, estacionada en Afganistán, hace frente al ataque avasallador de un grupo más numeroso de talibanes.</p>
+          <img src="img/proveedores/Paramount+/peliculas/theoutpost.jpg" alt="The Outpost">
+        </li>
+      </ul>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p>Diseñado por Mariano Zembo Clarens - &copy;2021</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  
+</body>
+
+</html>

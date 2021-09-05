@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>series+peliculasYA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Denk+One&family=Open+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/series+peliculasYA.css">
+  <script type="text/javascript" src="js/contenido.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="holder">
+      <img src="img/logo.png" width="100" alt="series+películasYA">
+      <h1>series+películasYA</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="holder">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proveedores.html">Proveedores</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a class="activo" href="peliculas.html">Películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="holder">
+
+    <div class="filtroseriesypeliculas">
+      <h2>Películas&nbsp;&nbsp;</h2>
+      <select name="proveedores" onchange="selectProv(this.value,'P')">
+          <option value="T">Todos los Proveedores</option>
+          <option value="A">Amazon PrimeVideo</option>
+          <option value="D">Disney+</option>
+          <option value="H">HBOmax</option>
+          <option value="N">Netflix</option>
+          <option value="P">Paramount+</option>
+          <option value="S" selected>StarZ</option>
+      </select>
+    </div>
+
+    <div class="provseriepeli">
+      <ul>
+        <li class="serieopeli">
+          <h5>Blindspotting</h5>
+          <p>Blindspotting se sitúa en Oakland, donde vive la protagonista Ashley hasta que su novio y padre de su hijo es encarcelado y ella tiene que enfrentarse a una crisis existencial.</p>
+          <img src="img/proveedores/starz/peliculas/blindspotting.jpg" alt="Blindspotting">
+        </li>
+        <li class="serieopeli">
+          <h5>Iron Man</h5>
+          <p>Capturado en Oriente Medio por un grupo de insurgentes, el industrial Tony Stark (Robert Downey Jr.) utilizará su ingenio para crear una armadura que le permita escapar.</p>
+          <img src="img/proveedores/starz/peliculas/ironman.jpg" alt="Iron Man">
+        </li>
+        <li class="serieopeli">
+          <h5>Jumanji</h5>
+          <p>El misterioso y letal juego Jumanji reaparece más de veinte años después. Es la época actual, y cuatro adolescentes se introducen en esta nueva aventura, ahora a partir de un videojuego que sirve como un portal a través del espacio-tiempo.</p>
+          <img src="img/proveedores/starz/peliculas/jumanji.jpg" alt="Jumanji">
+        </li>
+      </ul>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p>Diseñado por Mariano Zembo Clarens - &copy;2021</p>
+  </footer>
+
+</body>
+
+</html>

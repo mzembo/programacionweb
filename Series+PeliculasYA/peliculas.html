@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>series+peliculasYA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Denk+One&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/series+peliculasYA.css">
+    <script type="text/javascript" src="js/contenido.js"></script>
+</head>
+
+<body>
+    
+    <!-- <script>
+        function selectProv(valor) {
+            switch (valor) {
+                case 'T': break;
+                case 'A':
+                    location.href='peliculasAmazonPrime.html'; 
+                    break;
+                case 'D':
+                    location.href='peliculasDisney+.html'; 
+                    break;
+                case 'H':
+                    location.href='peliculasHBOmax.html'; 
+                    break;
+                case 'N':
+                    location.href='peliculasNetflix.html'; 
+                    break;
+                case 'P':
+                    location.href='peliculasParamount+.html'; 
+                    break;
+                case 'S':
+                    location.href='peliculasStarZ.html'; 
+                    break;
+            }
+        }
+    </script> -->
+
+    <header>
+        <div class="holder">
+            <img src="img/logo.png" width="100" alt="series+películasYA">
+            <h1>series+películasYA</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="holder">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="proveedores.html">Proveedores</a></li>
+                <li><a href="series.html">Series</a></li>
+                <li><a class="activo" href="peliculas.html">Películas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="holder">
+
+        <div class="filtroseriesypeliculas">
+            <h2>Películas&nbsp;&nbsp;</h2>
+            <select name="proveedores" onchange="selectProv(this.value,'P')">
+                <option value="T" selected>Todos los Proveedores</option>
+                <option value="A">Amazon PrimeVideo</option>
+                <option value="D">Disney+</option>
+                <option value="H">HBOmax</option>
+                <option value="N">Netflix</option>
+                <option value="P">Paramount+</option>
+                <option value="S">StarZ</option>
+            </select>
+        </div>
+
+        <div class="provseriepeli">
+            <ul>
+                <li class="serieopeli">
+                    <h5>Avengers</h5>
+                    <p>El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial.</p>
+                    <img src="img/proveedores/Disney+/peliculas/avengers.png" alt="Avengers">
+                </li>
+                <li class="serieopeli">
+                    <h5>Beckett</h5>
+                    <p>Una pareja de novios se dispone a pasar unas vacaciones idílicas en Atenas (Grecia). Sin embargo, al poco de llegar a la capital griega acaban envueltos en una violenta conspiración.</p>
+                    <img src="img/proveedores/Netflix/peliculas/beckett.jpg" alt="Beckett">
+                </li>
+                <li class="serieopeli">
+                    <h5>Blindspotting</h5>
+                    <p>Blindspotting se sitúa en Oakland, donde vive la protagonista Ashley hasta que su novio y padre de su hijo es encarcelado y ella tiene que enfrentarse a una crisis existencial.</p>
+                    <img src="img/proveedores/starz/peliculas/blindspotting.jpg" alt="Blindspotting">
+                </li>
+                <li class="serieopeli">
+                    <h5>Frozen II</h5>
+                    <p>Elsa tiene un poder extraordinario: es capaz de crear hielo y nieve. Después de oír una voz misteriosa, Elsa, acompañada por sus amigos, viaja a los bosques embrujados y los mares oscuros que se extienden más allá de los límites de su reino para descubrir quién es en realidad.</p>
+                    <img src="img/proveedores/Disney+/peliculas/frozen2.jpg" alt="Frozen II">
+                </li>
+                <li class="serieopeli">
+                    <h5>GreenLand</h5>
+                    <p>Una familia emprende un viaje para encontrar un refugio seguro cuando un gran cometa arremete contra la Tierra. A medida que el apocalipsis se acerca, la increíble travesía termina en una batalla para llegar a puerto seguro.</p>
+                    <img src="img/proveedores/Amazon/peliculas/greenland.jpg" alt="GreenLand">
+                </li>
+                <li class="serieopeli">
+                    <h5>Iron Man</h5>
+                    <p>Capturado en Oriente Medio por un grupo de insurgentes, el industrial Tony Stark (Robert Downey Jr.) utilizará su ingenio para crear una armadura que le permita escapar.</p>
+                    <img src="img/proveedores/starz/peliculas/ironman.jpg" alt="Iron Man">
+                </li>
+                <li class="serieopeli">
+                    <h5>Jumanji</h5>
+                    <p>El misterioso y letal juego Jumanji reaparece más de veinte años después. Es la época actual, y cuatro adolescentes se introducen en esta nueva aventura, ahora a partir de un videojuego que sirve como un portal a través del espacio-tiempo.</p>
+                    <img src="img/proveedores/starz/peliculas/jumanji.jpg" alt="Jumanji">
+                </li>
+                <li class="serieopeli">
+                    <h5>Mulan</h5>
+                    <p>Mulán es una chica joven y valiente que vive en una aldea. Su padre está enfermo pero a pesar de ello quiere luchar por su país. Mulán no lo va a consentir y se fugará de casa con la intención de hacerse pasar por un chico y combatir en lugar de su padre.</p>
+                    <img src="img/proveedores/Disney+/peliculas/mulan.jpg" alt="Mulan">
+                </li>
+                <li class="serieopeli">
+                    <h5>Space Jam</h5>
+                    <p>El ícono mundial de la NBA LeBron James se embarca en una aventura épica junto al personaje clásico Bugs Bunny en un evento que combina animación y actores reales, Space Jam: Una nueva era.</p>
+                    <img src="img/proveedores/HBOmax/peliculas/spacejam.jpg" alt="Space Jam">
+                </li>
+                <li class="serieopeli">
+                    <h5>The Fanatic</h5>
+                    <p>Un fanático al cine desarrolla una peculiar obsesión con su héroe favorito de acción, Hunter Dunbar, que le lleva a averiguar su paradero y, posteriormente, a destruir su vida profesional y personal.</p>
+                    <img src="img/proveedores/Paramount+/peliculas/thefanatic.jpg" alt="The Fanatic">
+                </li>
+                <li class="serieopeli">
+                    <h5>The Outpost</h5>
+                    <p>Una pequeña unidad de soldados estadounidenses, estacionada en Afganistán, hace frente al ataque avasallador de un grupo más numeroso de talibanes.</p>
+                    <img src="img/proveedores/Paramount+/peliculas/theoutpost.jpg" alt="The Outpost">
+                </li>
+                <li class="serieopeli">
+                    <h5>Soul</h5>
+                    <p>Un profesor de música que ha perdido la pasión se transporta fuera de su cuerpo al "Gran Antes" y debe encontrar el camino de regreso con la ayuda de un alma infantil que aprende sobre sí misma.</p>
+                    <img src="img/proveedores/Disney+/peliculas/soul.jpg" alt="Soul">
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Diseñado por Mariano Zembo Clarens - &copy;2021</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>series+peliculasYA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Denk+One&family=Open+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/series+peliculasYA.css">
+  <script type="text/javascript" src="js/contenido.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="holder">
+      <img src="img/logo.png" width="100" alt="series+películasYA">
+      <h1>series+películasYA</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="holder">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proveedores.html">Proveedores</a></li>
+        <li><a class="activo" href="series.html">Series</a></li>
+        <li><a href="peliculas.html">Películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="holder">
+
+    <div class="filtroseriesypeliculas">
+      <h2>Series&nbsp;&nbsp;</h2>
+      <select name="proveedores" onchange="selectProv(this.value,'S')">
+          <option value="T">Todos los Proveedores</option>
+          <option value="A">Amazon PrimeVideo</option>
+          <option value="D">Disney+</option>
+          <option value="H">HBOmax</option>
+          <option value="N">Netflix</option>
+          <option value="P">Paramount+</option>
+          <option value="S" selected>StarZ</option>
+      </select>
+    </div>
+
+    <div class="provseriepeli">
+      <ul>
+        <li class="serieopeli">
+          <h5>Gangs of London</h5>
+          <p>Tras el asesinato del capo de la organización, el repentino vacío de poder que crea su muerte rompe con la frágil paz que rige la complicada red de bandas que dominan las calles de Londres.</p>
+          <img src="img/proveedores/starz/series/gangsoflondon.jpg" alt="Gangs of London">
+        </li>
+        <li class="serieopeli">
+          <h5>MotherFatherSon</h5>
+          <p>Max posee uno de los imperios mediáticos más influyentes del mundo. Su negocio es la información: conoce los secretos más oscuros y usa su poder sin piedad, incluso contra su propia familia.</p>
+          <img src="img/proveedores/starz/series/motherfatherson.jpg" alt="MotherFatherSon">
+        </li>
+        <li class="serieopeli">
+          <h5>The Stand</h5>
+          <p>The Stand es la visión de Stephen King de un mundo diezmado por una plaga y embarcado en una lucha elemental entre el bien y el mal. El destino de la humanidad está en las frágiles manos de la madre Abagail, de 108 años, y de un puñado de supervivientes.</p>
+          <img src="img/proveedores/starz/series/thestand.jpg" alt="The Stand">
+        </li>
+      </ul>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p>Diseñado por Mariano Zembo Clarens - &copy;2021</p>
+  </footer>
+
+</body>
+
+</html>

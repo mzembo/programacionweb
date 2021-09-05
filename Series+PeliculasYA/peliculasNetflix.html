@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>series+peliculasYA</title>
+  <link rel="stylesheet" href="css/series+peliculasYA.css">
+  <link href="https://fonts.googleapis.com/css2?family=Denk+One&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <script type="text/javascript" src="js/contenido.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="holder">
+      <img src="img/logo.png" width="100" alt="series+películasYA">
+      <h1>series+películasYA</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="holder">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proveedores.html">Proveedores</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a class="activo" href="peliculas.html">Películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="holder">
+    
+    <div class="filtroseriesypeliculas">
+      <h2>Películas&nbsp;&nbsp;</h2>
+      <select name="proveedores" onchange="selectProv(this.value,'P')">
+          <option value="T">Todos los Proveedores</option>
+          <option value="A">Amazon PrimeVideo</option>
+          <option value="D">Disney+</option>
+          <option value="H">HBOmax</option>
+          <option value="N" selected>Netflix</option>
+          <option value="P">Paramount+</option>
+          <option value="S">StarZ</option>
+      </select>
+    </div>
+
+    <div class="provseriepeli">
+      <ul>
+        <li class="serieopeli">
+          <h5>Beckett</h5>
+          <p>Una pareja de novios se dispone a pasar unas vacaciones idílicas en Atenas (Grecia). Sin embargo, al poco de llegar a la capital griega acaban envueltos en una violenta conspiración.</p>
+          <img src="img/proveedores/Netflix/peliculas/beckett.jpg" alt="Beckett">
+        </li>
+      </ul>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p>Diseñado por Mariano Zembo Clarens - &copy;2021</p>
+  </footer>
+
+</body>
+
+</html>
