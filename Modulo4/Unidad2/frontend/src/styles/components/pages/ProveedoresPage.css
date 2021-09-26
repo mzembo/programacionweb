@@ -1,0 +1,36 @@
+.proveedores .proveedor {
+    list-style-type: none;
+    float: left;
+}
+
+.proveedores h2{
+    text-align: center;
+}
+
+.proveedor {
+    width: 9.375rem;
+    padding:1rem 0rem 1rem 0rem;               
+    text-align: center;    
+    transition: all 3s ease;      
+}
+
+.proveedor img {
+    margin:auto;
+    display:block;
+    transform: scale(0.9);
+    transition: all 2s ease; 
+}
+
+.proveedor:hover {
+    background-color: rgba(200,200,200,.5);
+    cursor: pointer;
+}
+  
+.proveedor:hover img {
+    transform: scale(1.3);
+    border: thin solid gold;
+}
+
+.proveedor ul li img.escala {
+    width: 9.375rem;
+}
